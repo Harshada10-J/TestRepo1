@@ -1,0 +1,22 @@
+
+git repository commands
+1. git status - to check the status of the working folder in git
+2. git add - to add the files to git
+3. git remote add origin "url" ==> adding a remote repo in the name of origin in the url
+4. git remote -v to check the name and url details of the repo
+5. git rm "file name" ==> to remove the file from git repository
+6. git rm --cached "file name" ==> file is kept locally but removed from the git tracking
+7. after every changes commit the changes and push into the repository
+8. git branch "branch name" ==> creating new branch
+9. git checkout -m "branch name" ==> to switch to that particular branch
+10. git diff -"file name" ==> this shows all the changes made to the file
+11. git diff --name-only ==> this will give the changed yet unstaged file names
+12. git diff --cached --merge-base "branch name" ==> the option cached give you differences between staging area and the last commit 
+13. git log ==> gives the history of commits along with details of actions time with a 40 character unique id
+14. git push "name of repo(origin by default)" -d "branch name" ==> delete the branch ====> you cannot delete the default branch
+15. 
+
+
+
+
+
