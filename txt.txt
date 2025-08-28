@@ -14,7 +14,12 @@ git repository commands
 12. git diff --cached --merge-base "branch name" ==> the option cached give you differences between staging area and the last commit 
 13. git log ==> gives the history of commits along with details of actions time with a 40 character unique id
 14. git push "name of repo(origin by default)" -d "branch name" ==> delete the branch ====> you cannot delete the default branch
-15. 
+15. git tag ==> list the tag
+16. git tag -a "name of version" "unique commit hash(from git log)" -m "commit message" ===> to create a new tag to that particular commit
+17. git push origin tag "name of version created" ===> to push the tag into repo
+18. git merge "branch name which is to merged" ==> 1st checkout "branch name in which it has to be merged" and merge command
+19. git merge --abort ==>  to go back to original state before merge, like cancelling the merge
+
 
 
 
